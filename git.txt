@@ -7,8 +7,8 @@ git提交代码：
      红色的字体显示的就是你修改的文件。
 2、提交代码第二步：git add .  或者 git add xxx
 3、提交代码第三步：git commit -m "提交代码说明日志"   推送修改到本地git库中
-4、提交代码第四步：git pull <远程主机名> <远程分支名>  取回远程主机某个分支的更新，再与本地的指定分支合并。
-     git pull origin master 提交到远程服务master分支上面
+4、提交代码第四步：  取回远程主机某个分支的更新，再与本地的指定分支合并。
+     git pull origin master/dev 提交到远程服务master分支上面
 5、提交代码第五步：git push <远程主机名> <远程分支名>  把当前提交到git本地仓库的代码推送到远程主机的某个远程分之上
      git push origin master
 注意：提交代码最好没错git status 查看是否有问题
