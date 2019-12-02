@@ -67,4 +67,4 @@ git branch -d develop
 
 8.删除远程develop分支
 git push origin --delete develop
-
+开始验证下
